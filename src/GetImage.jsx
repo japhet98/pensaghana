@@ -14,14 +14,6 @@ class GetImage extends Component {
       isDragging: false,
       next: false,
     };
-
-    // this.onChange = this.onChange.bind(this);
-    // this.handleDrop = this.handleDrop.bind(this);
-    // this.handleDragEnter = this.handleDragEnter.bind(this);
-    // this.handleDragOver = this.handleDragOver.bind(this);
-    // this.handleDragLeave = this.handleDragLeave.bind(this);
-    // this.handleFiles = this.handleFiles.bind(this);
-    // this.onRemove = this.onRemove.bind(this);
   }
 
   onRemove = (index) => {
@@ -174,10 +166,7 @@ class GetImage extends Component {
                   alt="imagloe"
                   required
                 />
-                {/* <div className="details"> */}
-                {/* <h6>{files[i].name}</h6>
-                  <h6>{files[i].size.toLocaleString()} KBs</h6>
-                  <h6>{files[i].type}</h6> */}
+
                 <i
                   className="material-icons"
                   style={{ color: "red" }}
@@ -185,7 +174,6 @@ class GetImage extends Component {
                 >
                   delete
                 </i>
-                {/* </div> */}
               </div>
             ))}
         </div>
