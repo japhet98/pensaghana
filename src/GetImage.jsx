@@ -145,6 +145,18 @@ class GetImage extends Component {
       <div style={{ width: "100%" }}>
         {Upload}
         <br />
+        {this.state.image ? (
+          <button
+            className="btn btn-success"
+            type="button"
+            onClick={this.getCropData}
+          >
+            Crop Image
+          </button>
+        ) : (
+          ""
+        )}
+        <br />
         <Cropper
           style={{ height: 400, width: "100%" }}
           initialAspectRatio={1}
@@ -164,13 +176,6 @@ class GetImage extends Component {
             });
           }}
         />
-        {this.state.image ? (
-          <button type="button" onClick={this.getCropData}>
-            Crop Image
-          </button>
-        ) : (
-          ""
-        )}
       </div>
     );
     // eslint-disable-next-line
