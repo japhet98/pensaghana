@@ -1,0 +1,363 @@
+.bottom {
+    background-color: rgb(1, 1, 131);
+    color: white;
+}
+
+bottom img {
+    object-fit: cover;
+}
+
+@media (max-width: 576px) {
+    /* TOP COMPONENT */
+    .top-left img {
+        width: 30%;
+        margin-left: 5px;
+    }
+    #cop {
+        margin-left: -10px;
+    }
+    .top-left h6 {
+        margin-top: 3px;
+        font-size: 7.4px;
+        margin-left: -15px;
+    }
+    .top-left #pg {
+        margin-top: -10px;
+    }
+    .top-right img {
+        width: 100%;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .det #name {
+        font-size: 9px;
+    }
+    .det #sector {
+        font-size: 8px;
+        margin-top: -10px;
+        /* margin-left: 34px; */
+    }
+    /* END OF TOP COMPONENT */
+    /* BOTTOM COMPONENT */
+    .bottom {
+        padding-top: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+    }
+    #p-image {
+        /* height: 190px; */
+        width: 50%;
+    }
+    .badge-pill {
+        background-color: white;
+        color: navy;
+        margin-bottom: -80px;
+        width: 100%;
+        /* height: 70px; */
+        /* margin-top: 90px; */
+    }
+    #unleash {
+        margin-top: -20px;
+        margin-bottom: -20px;
+        margin-left: 110px;
+        width: 30%;
+    }
+    .badge-pill h6 {
+        margin-left: 90px;
+        font-size: 8.5px;
+        margin-top: 10px;
+    }
+    #main-content {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 352px) {
+    /* TOP */
+    .det #name {
+        font-size: 10px;
+        margin-left: 15px;
+        margin-top: -10px;
+    }
+    .det #sector {
+        font-size: 8px;
+        margin-top: -15px;
+        margin-left: 15px;
+    }
+    /* END OF TOP */
+    /* Bottom */
+    .badge-pill {
+        background-color: white;
+        color: navy;
+        margin-bottom: -70px;
+        width: 100%;
+        /* height: 70px; */
+        /* margin-top: 90px; */
+    }
+    .badge-pill h6 {
+        margin-left: 80px;
+        font-size: 8px;
+        margin-top: 10px;
+    }
+    #unleash {
+        margin-top: -30px;
+        margin-bottom: -30px;
+        margin-left: 90px;
+        width: 30%;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 420px) and (max-width:768px) {
+    /* TOP COMPONENT */
+    .top-left img {
+        width: 30%;
+        margin-left: 5px;
+    }
+    .top-left h6 {
+        margin-top: 3px;
+        font-size: 9px;
+    }
+    .top-left #pg {
+        margin-top: -10px;
+    }
+    .top-right img {
+        width: 100%;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .det #name {
+        font-size: 17px;
+        margin-left: 13px;
+    }
+    .det #sector {
+        font-size: 12px;
+        margin-top: -15px;
+        margin-left: 47px;
+    }
+    /* END OF TOP COMPONENT */
+    /* BOTTOM COMPONENT */
+    .bottom {
+        padding: 40px
+    }
+    #p-image {
+        /* height: 250px; */
+        width: 50%;
+    }
+    .badge-pill {
+        background-color: white;
+        color: navy;
+        margin-bottom: -120px;
+        width: 100%;
+        /* height: 70px; */
+        /* margin-top: 90px; */
+    }
+    #unleash {
+        margin-top: -20px;
+        margin-bottom: -20px;
+        margin-left: 140px;
+        width: 30%;
+    }
+    .badge-pill h6 {
+        margin-left: 120px;
+        font-size: 10.5px;
+        margin-top: 10px;
+    }
+    #main-content {
+        margin-top: 60px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+@media (min-width: 768px) and (max-width:992px) {
+    /* TOP COMPONENT */
+    .top-left img {
+        width: 30%;
+        margin-left: 5px;
+    }
+    .top-left h6 {
+        margin-top: 3px;
+        font-size: 17.5px;
+    }
+    .top-left #pg {
+        margin-top: -10px;
+    }
+    .top-right img {
+        width: 100%;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .det #name {
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    .det #sector {
+        font-size: 15px;
+        margin-top: -15px;
+        margin-left: 60px;
+    }
+    /* END OF TOP COMPONENT */
+    /* BOTTOM COMPONENT */
+    .bottom {
+        padding: 40px
+    }
+    #p-image {
+        /* height: 350px; */
+        width: 50%;
+    }
+    .badge-pill {
+        background-color: white;
+        color: navy;
+        margin-bottom: -190px;
+        width: 100%;
+        /* height: 70px; */
+        /* margin-top: 90px; */
+    }
+    #unleash {
+        margin-top: -20px;
+        margin-bottom: -20px;
+        margin-left: 220px;
+        width: 30%;
+    }
+    .badge-pill h6 {
+        margin-left: 220px;
+        font-size: 15.5px;
+        margin-top: 10px;
+    }
+    #main-content {
+        margin-top: 60px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width:1200px) {
+    /* TOP COMPONENT */
+    .top-left img {
+        width: 20%;
+        margin-left: 5px;
+    }
+    .top-left h6 {
+        margin-top: 3px;
+        font-size: 20px;
+    }
+    .top-left #pg {
+        margin-top: -10px;
+    }
+    .top-right img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .det #name {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .det #sector {
+        font-size: 15px;
+        margin-top: -15px;
+        margin-left: 90px;
+    }
+    /* END OF TOP COMPONENT */
+    /* BOTTOM COMPONENT */
+    .bottom {
+        padding: 40px
+    }
+    #p-image {
+        /* height: 400px; */
+        width: 50%;
+    }
+    .badge-pill {
+        background-color: white;
+        color: navy;
+        margin-bottom: -250px;
+        width: 100%;
+        /* height: 70px; */
+        /* margin-top: 90px; */
+    }
+    #unleash {
+        margin-top: -20px;
+        margin-bottom: -20px;
+        margin-left: 350px;
+        width: 30%;
+    }
+    .badge-pill h6 {
+        margin-left: 320px;
+        font-size: 20.5px;
+        margin-top: 10px;
+        margin-bottom: -30px;
+    }
+    #main-content {
+        margin-top: 60px;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    /* TOP COMPONENT */
+    .top-left img {
+        width: 20%;
+        margin-left: 5px;
+    }
+    .top-left h6 {
+        margin-top: 3px;
+        font-size: 20px;
+    }
+    .top-left #pg {
+        margin-top: -10px;
+    }
+    .top-right img {
+        width: 80%;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .det #name {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .det #sector {
+        font-size: 15px;
+        margin-top: -15px;
+        margin-left: 90px;
+    }
+    /* END OF TOP COMPONENT */
+    /* BOTTOM COMPONENT */
+    .bottom {
+        padding: 40px
+    }
+    #p-image {
+        /* height: 500px; */
+        width: 50%;
+    }
+    .badge-pill {
+        background-color: white;
+        color: navy;
+        margin-bottom: -300px;
+        width: 100%;
+        /* height: 70px; */
+        /* margin-top: 90px; */
+    }
+    #unleash {
+        margin-top: -20px;
+        margin-bottom: -20px;
+        margin-left: 350px;
+        width: 30%;
+    }
+    .badge-pill h6 {
+        margin-left: 320px;
+        font-size: 20.5px;
+        margin-top: 10px;
+        margin-bottom: -30px;
+    }
+    #main-content {
+        margin-top: 60px;
+    }
+}

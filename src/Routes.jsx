@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// import App from "./App";
 import GetImage from "./GetImage";
 
 class Routes extends Component {
@@ -10,7 +9,6 @@ class Routes extends Component {
         <Router>
           <Switch>
             <Route exact path="/" component={GetImage} />
-            {/* <Route path="download-image" component={CardProfile} /> */}
           </Switch>
         </Router>
       </div>
