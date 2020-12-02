@@ -124,7 +124,7 @@ class GetImage extends Component {
     );
     const screenshot = () => {
       const name = this.state.name;
-      const label = `${name}.png`;
+      const label = `${name}.jpg`;
       domtoimage.toBlob(document.getElementById("node")).then(function (blob) {
         saveAs(blob, label);
       });
